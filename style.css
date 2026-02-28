@@ -1,0 +1,217 @@
+/* Reset & Typography */
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 650px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #7f8c8d;
+  font-size: 0.95em;
+}
+
+/* Form Styles */
+.form-group {
+  background-color: #fcfcfc;
+  border: 1px solid #e1e8ed;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group h3 {
+  margin-top: 0;
+  color: #34495e;
+  border-bottom: 2px solid #3498db;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccd1d9;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.col {
+  flex: 1;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.radio-group label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 0;
+}
+
+.check-group {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.check-group div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.check-group label {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.info-text {
+  color: #7f8c8d;
+  font-size: 0.85em;
+  display: block;
+  margin-top: 5px;
+}
+
+/* Button Styles */
+.btn-submit {
+  width: 100%;
+  background-color: #3498db;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #2980b9;
+}
+
+.btn-secondary {
+  width: 100%;
+  background-color: #95a5a6;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #7f8c8d;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Validasi JS */
+.error-msg {
+  color: #e74c3c;
+  font-size: 0.85em;
+  font-weight: bold;
+  margin-top: 5px;
+  display: none;
+}
+
+.is-invalid {
+  border: 2px solid #e74c3c !important;
+  background-color: #fdf2f1;
+}
+
+/* Kotak Pratinjau */
+.preview-box {
+  background-color: #e8f4f8;
+  border: 1px solid #bfe0ed;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.preview-box p {
+  margin: 10px 0;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 5px;
+}
+
+/* Kotak Sukses */
+.success-box {
+  text-align: center;
+  background-color: #eafaf1;
+  border: 2px solid #2ecc71;
+  padding: 40px 20px;
+  border-radius: 8px;
+  color: #27ae60;
+}
+
+.success-box h2 {
+  margin-top: 0;
+}
